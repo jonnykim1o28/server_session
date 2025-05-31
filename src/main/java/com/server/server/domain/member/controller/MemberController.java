@@ -18,6 +18,7 @@ public class MemberController {
     @GetMapping
     @Operation(summary = "Get all members")
     public List<Member> findAll() {
+        // hello world
         return memberRepository.findAll();
     }
 
