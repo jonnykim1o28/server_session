@@ -18,7 +18,7 @@ public class MemberController {
     @GetMapping
     @Operation(summary = "Get all members")
     public List<Member> findAll() {
-        return memberRepository.findAll();
+        return null;
     }
 
     @GetMapping("/{id}")
